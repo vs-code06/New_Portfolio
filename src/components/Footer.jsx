@@ -51,8 +51,8 @@ export default function Footer() {
                         </h3>
                         <div className="flex gap-4">
                             {[
-                                { icon: FiGithub, href: "#", label: "GitHub" },
-                                { icon: FiLinkedin, href: "#", label: "LinkedIn" },
+                                { icon: FiGithub, href: "https://github.com/vs-code06", label: "GitHub" },
+                                { icon: FiLinkedin, href: "https://www.linkedin.com/in/vipul-sharma-069943241/", label: "LinkedIn" },
                                 { icon: FiTwitter, href: "#", label: "Twitter" },
                                 { icon: FiInstagram, href: "#", label: "Instagram" }
                             ].map((social) => (
