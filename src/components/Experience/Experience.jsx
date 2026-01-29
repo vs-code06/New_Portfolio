@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { experience } from '../../data/experience';
 import SectionHeader from '../SectionHeader';
-import { FiMapPin, FiTarget, FiCpu, FiCalendar } from 'react-icons/fi';
+import { FiMapPin, FiTarget, FiCpu } from 'react-icons/fi';
 
 const SingleExperience = ({ job }) => {
     const containerVariants = {
