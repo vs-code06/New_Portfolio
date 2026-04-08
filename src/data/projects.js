@@ -1,6 +1,6 @@
 import FixoraImg from '../assets/Fixora.png';
 import CinemazeImg from '../assets/Cinemaze.png';
-import ExpenseFlowImg from '../assets/ExpenseFlow.png';
+import CivicFlowImg from '../assets/CivicFlow.png';
 
 export const projects = [
     {
@@ -23,11 +23,11 @@ export const projects = [
     },
     {
         id: 3,
-        title: "ExpenseFlow",
-        description: "A financial dashboard for tracking expenses, managing budgets, and visualizing spending trends.",
-        tags: ["React", "HTML", "CSS", "Javascript"],
-        image: ExpenseFlowImg,
-        link: "https://expense1001.netlify.app/",
-        github: "https://github.com/vs-code06/New_ExpenseTracker"
+        title: "CivicFlow",
+        description: "Developed a full-stack SaaS platform for urban waste management, integrating an AI microservice for real-time insights and automated reporting. Features include AI-driven insights, real-time complaint tracking with intelligent task allocation, secure multi-role JWT authentication, and a dynamic monitoring dashboard.",
+        tags: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "FastAPI", "LangChain"],
+        image: CivicFlowImg,
+        link: "https://civicflow-mu.vercel.app/",
+        github: "https://github.com/vs-code06/CivicFlow-backend"
     }
 ];

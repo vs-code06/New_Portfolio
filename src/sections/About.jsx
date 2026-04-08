@@ -11,16 +11,20 @@ const stats = [
 ];
 
 const skills = [
-    { name: "HTML", level: 90, category: "LANG" },
-    { name: "JavaScript", level: 85, category: "LANG" },
-    { name: "MongoDB", level: 80, category: "DB" },
-    { name: "MySQL", level: 80, category: "DB" },
-    { name: "Python", level: 75, category: "LANG" },
-    { name: "React", level: 85, category: "LIB" },
-    { name: "SQL", level: 80, category: "DB" },
-    { name: "Express JS", level: 80, category: "LIB" },
-    { name: "Prisma ORM", level: 70, category: "LIB" },
-    { name: "DSA", level: 85, category: "CONCEPT" },
+    { name: "React", category: "LIB" },
+    { name: "Node.js", category: "LIB" },
+    { name: "TypeScript", category: "LANG" },
+    { name: "JavaScript", category: "LANG" },
+    { name: "Python", category: "LANG" },
+    { name: "MongoDB", category: "DB" },
+    { name: "SQL", category: "DB" },
+    { name: "LangChain", category: "AI" },
+    { name: "LangGraph", category: "AI" },
+    { name: "LangSmith", category: "AI" },
+    { name: "Express JS", category: "LIB" },
+    { name: "Git and Github", category: "TOOL" },
+    { name: "Data Structure", category: "CONCEPT" },
+    { name: "Prisma ORM", category: "LIB" },
 ];
 
 const TypewriterText = ({ text, delay = 0 }) => {
